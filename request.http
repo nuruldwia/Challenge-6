@@ -1,0 +1,20 @@
+### REGISTER
+POST http://localhost:4001/api/v1/users/register
+Content-Type: application/json
+
+{
+    "username" : "Dana",
+    "email" : "dacitana@mail.com",
+    "password" : "dana000",
+    "password_confirmation" : "dana000"
+}
+
+
+### LOGIN
+POST http://localhost:4001/api/v1/users/login
+Content-Type: application/json
+
+{
+    "email" : "dacitana@mail.com",
+    "password" : "dana000"
+}
