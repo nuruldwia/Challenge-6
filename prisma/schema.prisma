@@ -26,3 +26,8 @@ model ArtGallery {
   description String
   image       String
 }
+
+model Success {
+  id    Int @id @default(autoincrement())
+  status  Boolean
+}
